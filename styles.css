@@ -1,0 +1,14 @@
+/* :nth-child Pseudo-classes------------------ */
+
+/*:nth-child(an+b) This is the formula to work out nth child 
+:nth-child(3n+4)
+Represents elements 4 [=(3×0)+4], 7 [=(3×1)+4], 10 [=(3×2)+4], 13 [=(3×3)+4], etc
+
+:nth-child(-n+3)
+Represents the first three elements. [=-0+3, -1+3, -2+3] etc
+*/
+
+li:nth-child(3n) {
+  background: #52bab3;
+  color: white;
+}
